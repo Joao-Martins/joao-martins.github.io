@@ -1,0 +1,1 @@
+"use strict";angular.module("joaoMartinsgithubioDevApp",["ngAnimate","ngCookies","ngResource","ngRoute","ngSanitize","ngTouch","ui.gravatar"]).config(["$routeProvider",function(a){a.when("/",{templateUrl:"views/home.html",controller:"HomeCtrl"}).otherwise({redirectTo:"/"})}]),angular.module("joaoMartinsgithubioDevApp").controller("HomeCtrl",["$scope",function(a){a.showInfo=!1}]);
